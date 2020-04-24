@@ -79,7 +79,7 @@ def load_urls():
 
 if __name__ == '__main__':
 	load_urls()
-	for i in range(644,len(urls)):
+	for i in range(0,len(urls)):
 		print("Turn of", i, "out of", len(urls))
 		print(urls[i])
 		get_soup(urls[i],i)
